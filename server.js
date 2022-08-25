@@ -21,32 +21,32 @@ const teas = {
         'waterTemp': 'steaming briskly (175-180°)',
         'steepTime': '2-3 minutes'
     },
-    'Oolong' : {
+    'oolong' : {
         'leavesAmount': '1 level tsp. per 6oz.',
         'waterTemp': 'almost boiling (195°)',
         'steepTime': '2-3 minutes'
     },
-    'Pu-erh' : {
+    'pu-erh' : {
         'leavesAmount': '1 heaping tsp. per 6oz.',
         'waterTemp': 'full boil (212°)',
         'steepTime': '5 minutes'
     },
-    'Purple' : {
+    'purple' : {
         'leavesAmount': '1 heaping tsp. per 6oz.',
         'waterTemp': 'steaming briskly (175-180°)',
         'steepTime': '3 minutes'
     },
-    'Mate' : {
+    'mate' : {
         'leavesAmount': '1 level tsp. per 6oz.',
         'waterTemp': 'steaming (150-160°)',
         'steepTime': '2-3 minutes'
     },
-    'Herbal' : {
+    'herbal' : {
         'leavesAmount': '1 heaping tsp. per 6oz.',
         'waterTemp': 'full boil (212°)',
         'steepTime': '5-10 minutes'
     },
-    'Rooibos' : {
+    'rooibos' : {
         'leavesAmount': '1 level tsp. per 6oz.',
         'waterTemp': 'full boil (212°)',
         'steepTime': '5-10 minutes'
@@ -64,7 +64,7 @@ app.get('/', (request, response)=>{
 })
 
 app.get('/api/:name', (request, response)=>{
-    const teaType = request.params.name
+    const teaType = request.params.name.toLowerCase()
     if (teas[teaType]) {
         response.json(teas[teaType])
     } else {
