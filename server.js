@@ -60,7 +60,7 @@ const teas = {
 }
 
 app.get('/', (request, response)=>{
-    response.sendFile(__dirname + 'public/')
+    response.sendFile(__dirname + '/public/')
 })
 
 app.get('/api/:name', (request, response)=>{
