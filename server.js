@@ -64,7 +64,7 @@ app.get('/', (request, response)=>{
 })
 
 app.get('/api/:name', (request, response)=>{
-    const teaType = request.params.name.toLowerCase()
+    const teaType = request.params.name
     if (teas[teaType]) {
         response.json(teas[teaType])
     } else {
