@@ -1,12 +1,12 @@
-# Tea Types Api : <a target="_blank" href="https://tea-brew-api.herokuapp.com/">Visit Here</a>
+# Tea Types Api : <a target="_blank" href="https://tea-brew-api-production.up.railway.app/">Visit Here</a>
 
-<a target="_blank" href="https://tea-brew-api.herokuapp.com/">
+<a target="_blank" href="https://tea-brew-api-production.up.railway.app/">
 <img src="RMimages/tea-brew-times.png" width="100%" alt="tea-brew-times"/>
 </a>
 
 ### An API to access different types of tea brewing and steep times.
 
-## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![NODEJS BADGE](https://img.shields.io/static/v1?label=|&message=NODE&color=bbb111&style=plastic&logo=nodedotjs)![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)
+## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![NODEJS BADGE](https://img.shields.io/static/v1?label=|&message=NODE&color=bbb111&style=plastic&logo=nodedotjs)![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)![RAILWAY BADGE](https://img.shields.io/static/v1?label=|&message=RAILWAY&color=bbb111&style=plastic&logo=railway)
 
 
 My focus was to create a simple and accessible API
