@@ -1,12 +1,12 @@
-# Tea Types Api : <a target="_blank" href="https://tea-brew-api-production.up.railway.app/">Visit Here</a>
+# Tea Types Api : <a target="_blank" href="https://tea-brew-api.onrender.com/">Visit Here</a>
 
-<a target="_blank" href="https://tea-brew-api-production.up.railway.app/">
+<a target="_blank" href="https://tea-brew-api.onrender.com/">
 <img src="RMimages/tea-brew-times.png" width="100%" alt="tea-brew-times"/>
 </a>
 
 ### An API to access different types of tea brewing and steep times.
 
-## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![NODEJS BADGE](https://img.shields.io/static/v1?label=|&message=NODE&color=bbb111&style=plastic&logo=nodedotjs)![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)![RAILWAY BADGE](https://img.shields.io/static/v1?label=|&message=RAILWAY&color=bbb111&style=plastic&logo=railway)
+## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![NODEJS BADGE](https://img.shields.io/static/v1?label=|&message=NODE&color=bbb111&style=plastic&logo=nodedotjs)![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)![RENDER BADGE](https://img.shields.io/static/v1?label=|&message=RENDER&color=bbb111&style=plastic&logo=render)
 
 
 My focus was to create a simple and accessible API
@@ -17,7 +17,7 @@ My next steps for improving this project would be to make it fullstack where the
 
 ## Lessons Learned:
 
-I learned how to host my server on Heroku.
+Learned the ins and outs of hosting servers.
 
 ## More Projects
 
